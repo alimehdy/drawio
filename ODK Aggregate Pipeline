@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T10:24:02.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="UVAf9KcjYl6E-Y0Mc69R" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T10:43:51.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MOcvjqvUcdj7K-nh_iWP" version="13.10.4" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
     <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -292,6 +292,9 @@
         <mxCell id="Vrxy9VlcDbjw4KI4AFxv-25" value="SURVEY SIZE IN BYTES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-27" target="Vrxy9VlcDbjw4KI4AFxv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vrxy9VlcDbjw4KI4AFxv-27" value="DATE FILE ADDED/MODIFIED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
@@ -305,6 +308,74 @@
           <mxGeometry x="-0.4364" y="-1" relative="1" as="geometry">
             <mxPoint x="139" y="19" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-33" value="&lt;font style=&quot;font-size: 8px&quot;&gt;AUTO_INCREMENT_ID_FOR_VARIANT_TABLE&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1650" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-34" target="Vrxy9VlcDbjw4KI4AFxv-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-34" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;GETTING THE NEXT VALUE OF SURVEY_ID FROM A SEQUENCE&lt;/font&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="915" y="1690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-37" target="Vrxy9VlcDbjw4KI4AFxv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-41" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#007FFF;" vertex="1" connectable="0" parent="Vrxy9VlcDbjw4KI4AFxv-40">
+          <mxGeometry x="-0.1222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-43" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-37" target="Vrxy9VlcDbjw4KI4AFxv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-37" value="&lt;font style=&quot;font-size: 9px&quot;&gt;NEXT VALUE ADDED?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-39" value="&lt;font color=&quot;#ffffff&quot;&gt;END&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#007FFF;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-42" target="Vrxy9VlcDbjw4KI4AFxv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-42" value="&lt;font style=&quot;font-size: 11px&quot;&gt;INSERT INTO SURVEYS TABLE (ADD FORM ID IF AVAIL. TO TABLE)&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-46" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-48" value="ROLLBACK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1490" />
+              <mxPoint x="830" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-49" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#007FFF;" vertex="1" connectable="0" parent="Vrxy9VlcDbjw4KI4AFxv-48">
+          <mxGeometry x="-0.779" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-44" value="&lt;font size=&quot;1&quot;&gt;SUCCESS&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-50" target="Vrxy9VlcDbjw4KI4AFxv-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-50" value="&lt;font style=&quot;font-size: 11px&quot;&gt;INSERT INTO &lt;br&gt;SURVEYS &lt;br&gt;META DATA &lt;br&gt;TABLE&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-53" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-51" value="&lt;font size=&quot;1&quot;&gt;SUCCESS&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1490" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
