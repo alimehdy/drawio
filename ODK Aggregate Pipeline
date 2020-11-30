@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T10:18:36.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0svs10ORJR4DPppyswVG" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T10:23:10.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="az2-zr77ye77WGxmRxp4" version="13.10.4" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
     <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -249,6 +249,9 @@
         <mxCell id="Vrxy9VlcDbjw4KI4AFxv-12" value="REMOVE NULL VALUES AND REPLACE THEM WITH BLANK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-15" target="Vrxy9VlcDbjw4KI4AFxv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vrxy9VlcDbjw4KI4AFxv-15" value="SET DATA SOURCE ID, STATUS, AND SURVEY TYPE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
@@ -273,6 +276,21 @@
           <mxGeometry x="-0.4364" y="-1" relative="1" as="geometry">
             <mxPoint x="-91" y="-48" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-22" target="Vrxy9VlcDbjw4KI4AFxv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-22" value="COLLECTING NBR OF ROWS AND COLUMNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#007FFF;gradientColor=none;fontColor=#007FFF;" edge="1" parent="1" source="Vrxy9VlcDbjw4KI4AFxv-25" target="Vrxy9VlcDbjw4KI4AFxv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-25" value="SURVEY SIZE IN BYTES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrxy9VlcDbjw4KI4AFxv-27" value="DATE FILE ADDED/MODIFIED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
