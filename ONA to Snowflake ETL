@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T14:21:14.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4q2_g2dnPBDFEaVpu_Q5" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T14:21:32.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Nwb2v6-NBAErHOz58fF8" version="14.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="925" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="5wNkw2ckA_vniWuGo4Uy-71" value="GET Metadata of a survey" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="5wNkw2ckA_vniWuGo4Uy-144">
           <mxGeometry x="130" y="392" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5wNkw2ckA_vniWuGo4Uy-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5wNkw2ckA_vniWuGo4Uy-144" source="5wNkw2ckA_vniWuGo4Uy-57" target="5wNkw2ckA_vniWuGo4Uy-71">
+        <mxCell id="5wNkw2ckA_vniWuGo4Uy-72" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5wNkw2ckA_vniWuGo4Uy-144" source="5wNkw2ckA_vniWuGo4Uy-57" target="5wNkw2ckA_vniWuGo4Uy-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5wNkw2ckA_vniWuGo4Uy-76" value="Start uploading the main table" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="5wNkw2ckA_vniWuGo4Uy-144">
